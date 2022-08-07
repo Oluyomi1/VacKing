@@ -1,15 +1,90 @@
-. container {
-  height: 20px;
+.box {
+  border: 1px purple dotted;
+}
+
+body {
+  font-family: "Century Gothic", sans-serif;
+}
+
+body,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-nav {
+  border-bottom: 2px #662a82 solid;
+  padding: 8px 0px;
+}
+
+nav a {
+  color: #cf7fca;
+}
+
+.container {
+  width: 800px;
+}
+
+.centered {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear-float::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.w-75 {
+  width: 75px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.purple {
+  color: #662a82;
+}
+
+.grey {
+  color: #967c7c;
+}
+
+.container-fluid {
   width: 100%;
-  background-color: green;
-}
-
-.home {
-  width: 10px;
-  padding-left: auto;
-  padding-right: auto;
-}
-
-.background {
-  background-color: Red;
 }
