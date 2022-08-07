@@ -1,0 +1,15 @@
+. container {
+  height: 20px;
+  width: 100%;
+  background-color: green;
+}
+
+.home {
+  width: 10px;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.background {
+  background-color: Red;
+}
